@@ -29,8 +29,8 @@ class DockerCompose < Formula
     url "https://github.com/docker/compose.git"
 
     resource "docker-py" do
-      url "https://pypi.python.org/packages/source/d/docker-py/docker-py-1.4.0.tar.gz"
-      sha256 "933bd55ec332adfe69b2825d81e7d238f51d970d5b16f63a14199789cd04c7b8"
+      url "https://pypi.python.org/packages/source/d/docker-py/docker-py-1.5.0.tar.gz"
+      sha256 "6924128fac46afef0de16ebdffc30a8c071246312260f289d895129f4e00f8d0"
     end
 
     resource "requests" do
